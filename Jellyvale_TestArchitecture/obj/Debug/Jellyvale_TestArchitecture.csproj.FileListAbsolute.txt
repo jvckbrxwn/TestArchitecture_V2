@@ -1,0 +1,6 @@
+/Users/mac/RiderProjects/Jellyvale_TestArchitecture/Jellyvale_TestArchitecture/bin/Debug/Jellyvale_TestArchitecture.exe
+/Users/mac/RiderProjects/Jellyvale_TestArchitecture/Jellyvale_TestArchitecture/bin/Debug/Jellyvale_TestArchitecture.pdb
+/Users/mac/RiderProjects/Jellyvale_TestArchitecture/Jellyvale_TestArchitecture/obj/Debug/Jellyvale_TestArchitecture.csproj.AssemblyReference.cache
+/Users/mac/RiderProjects/Jellyvale_TestArchitecture/Jellyvale_TestArchitecture/obj/Debug/Jellyvale_TestArchitecture.csproj.CoreCompileInputs.cache
+/Users/mac/RiderProjects/Jellyvale_TestArchitecture/Jellyvale_TestArchitecture/obj/Debug/Jellyvale_TestArchitecture.exe
+/Users/mac/RiderProjects/Jellyvale_TestArchitecture/Jellyvale_TestArchitecture/obj/Debug/Jellyvale_TestArchitecture.pdb
