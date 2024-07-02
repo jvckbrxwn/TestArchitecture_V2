@@ -42,6 +42,7 @@
     <ItemGroup>
         <Compile Include="Base\GameModes\BaseMatch3GameMode.cs"/>
         <Compile Include="Base\LevelGenerator\BaseLevelGenerator.cs"/>
+        <Compile Include="Base\LevelInitializers\BaseLevelInitializer.cs" />
         <Compile Include="Base\LevelStarter\BaseLevelStarter.cs"/>
         <Compile Include="Base\SceneInstantiators\BaseLevelInstantiator.cs"/>
         <Compile Include="Datas\LevelData.cs"/>
