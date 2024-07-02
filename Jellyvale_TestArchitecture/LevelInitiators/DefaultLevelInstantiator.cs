@@ -10,8 +10,8 @@ namespace Jellyvale_TestArchitecture
 		{
 			Console.WriteLine($"{GetType()} activated");
 			//These params we have to send into generator to understand with mode (default or debug) he have to instantiate
-			Match3LevelParams @params = new Match3LevelParams(GeneratedLevelType.Default, "d_level_123");
-			LevelInitializer.Execute(GeneratedLevelType.Default);
+			Match3LevelParams @params = new Match3LevelParams(LoadedLevelType.Default, "d_level_123");
+			LevelInitializer.Execute(@params);
 		}
 	}
 }

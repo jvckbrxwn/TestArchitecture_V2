@@ -8,7 +8,7 @@ namespace Jellyvale_TestArchitecture
 		public override void LevelInit()
 		{
 			Console.WriteLine($"{GetType()} activated");
-			LevelInitializer.Execute(GeneratedLevelType.Debug);
+			LevelInitializer.Execute(new Match3LevelParams(LoadedLevelType.Debug, "d_tunnel_1"));
 		}
 	}
 }

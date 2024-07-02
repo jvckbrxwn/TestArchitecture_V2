@@ -4,11 +4,11 @@ namespace Jellyvale_TestArchitecture
 {
 	public sealed class TunnelLevelInitializer : BaseLevelInitializer
 	{
-		protected override IDictionary<GeneratedLevelType, BaseLevelGenerator> LevelGenerators { get; }
-			= new Dictionary<GeneratedLevelType, BaseLevelGenerator>
+		protected override IDictionary<LoadedLevelType, BaseLevelGenerator> LevelGenerators { get; }
+			= new Dictionary<LoadedLevelType, BaseLevelGenerator>
 			{
-				{ GeneratedLevelType.Default, new TunnelLevelGenerator() },
-				{ GeneratedLevelType.Debug, new DebugTunnelLevelGenerator() }
+				{ LoadedLevelType.Default, new TunnelLevelGenerator() },
+				{ LoadedLevelType.Debug, new DebugTunnelLevelGenerator() }
 			};
 	}
 }

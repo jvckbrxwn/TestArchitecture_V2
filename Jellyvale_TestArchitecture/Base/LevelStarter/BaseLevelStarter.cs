@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Jellyvale_TestArchitecture
 {
-	public enum GeneratedLevelType
+	public enum LoadedLevelType
 	{
 		Default, Debug
 	}
@@ -20,12 +20,13 @@ namespace Jellyvale_TestArchitecture
 
 	public abstract class BaseLevelInitializer : ILevelInitializer
 	{
-		protected abstract IDictionary<GeneratedLevelType, BaseLevelGenerator> LevelGenerators { get; }
+		protected abstract IDictionary<LoadedLevelType, BaseLevelGenerator> LevelGenerators { get; }
 
-		public virtual void Execute(GeneratedLevelType type)
+		public virtual void Execute(Match3LevelParams @params)
 		{
 			Console.WriteLine($"{GetType()} executing");
-			LevelGenerators[type].GetLevelData();
+			Console.WriteLine(@params.LevelId);
+			LevelGenerators[@params.Type].GetLevelData();
 		}
 	}
 }
