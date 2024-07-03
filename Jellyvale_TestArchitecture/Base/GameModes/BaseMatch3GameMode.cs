@@ -5,7 +5,8 @@ namespace Jellyvale_TestArchitecture
 	public abstract class BaseMatch3GameMode<T> where T : ILoopable, IActivatable
 	{
 		//Will be replaced with Context.Container.Resolve(out T value);
-		private readonly T levelInitiator = Activator.CreateInstance<T>(); //<- should be protected
+		private readonly T levelInitiator = Activator.CreateInstance<T>();
+		// ^ should be protected
 		//if we want to override ActivatedMode()
 
 		public virtual void ActivateMode()
